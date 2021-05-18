@@ -21,9 +21,8 @@ $ cd cowin-docker
 ```
 TELOXIDE_TOKEN=<Your bot token here>
 CHANNEL_ID=<Your channel_id here>
-...
 ```
- 4. **Adding or Removing new Districts**
+ 5. **Adding or Removing new Districts**
 - Get your state ID from: `https://cdn-api.co-vin.in/api/v2/admin/location/states`
 - Get your district ID from: `https://cdn-api.co-vin.in/api/v2/admin/location/districts/<STATE_ID>`
 - Open [`src/response.rs`](https://github.com/obviyus/vnb/blob/10cea6a460f52818730a1297c06239acd13dc692/src/response.rs#L45) in any text editor and change the `MONITORED_DISTRICTS` constant to your liking.:
